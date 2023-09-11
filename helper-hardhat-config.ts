@@ -47,12 +47,13 @@ export const developmentLocalNetworkNameOnMetaMask: {
   [key: string]: string;
   hardhat: string;
   localhost: string;
+  sepolia: string;
 } = {
   hardhat: "chain 31337",
   localhost: "chain 1337",
+  sepolia: "chain 11155111",
 };
 export const VERIFICATION_BLOCK_CONFIRMATIONS = 6;
 export const frontEndContractsFile =
   "../raffle-ui/src/constants/contractAddresses.json";
-export const frontEndAbiFile =
-  "../raffle-ui/src/constants/abi.json";
+export const frontEndAbiFile = "../raffle-ui/src/constants/abi.json";
