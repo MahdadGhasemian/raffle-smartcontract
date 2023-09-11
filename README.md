@@ -1,4 +1,4 @@
-# Hardhat SmartContract Lottery
+# Raffle SmartContract
 
 ```shell
 npm i
